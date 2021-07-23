@@ -1,14 +1,15 @@
-import { ColorModeScript } from '@chakra-ui/react';
+import { vtheme, ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
+import ShoppingCart from './components/ShoppingCart';
 
 ReactDOM.render(
   <StrictMode>
     <ColorModeScript />
-    <App />
+     <App />
   </StrictMode>,
   document.getElementById('root')
 );

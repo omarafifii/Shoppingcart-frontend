@@ -1,3 +1,12 @@
+# Shoppingcart-Frontend
+
+### To run this app locally 
+
+1. Open the terminal in the current project
+1. run `yarn install`
+1. run `yarn start`
+
+-------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
